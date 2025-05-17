@@ -26,6 +26,8 @@ module.exports = {
     date: process.env.NEXT_PUBLIC_NOTION_PROPERTY_DATE || 'date',
     tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || 'tags',
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon',
+    source: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'source',
+    urlink: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'urlink',
     ext: process.env.NEXT_PUBLIC_NOTION_PROPERTY_EXT || 'ext' // 扩展字段，存放json-string，用于复杂业务
   },
   NOTION_ACTIVE_USER: process.env.NOTION_ACTIVE_USER || '',
